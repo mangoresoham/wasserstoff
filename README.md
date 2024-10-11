@@ -26,4 +26,16 @@ To get started with this project, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/pdf-summarizer.git
+   git clone https://github.com/mangoresoham/wasserstoff.git
+2. **Navigate to the project directory**:
+   ```bash
+   cd pdf-summarizer
+3. **Create a virtual environment (optional but recommended)**:
+   ```bash
+   conda create -n venv python 3.8 anaconda
+4. **Install the required packages**:
+   ```bash
+   pip install -r requirements.txt
+5. **Run the application**:
+   ```bash
+   streamlit run app.py
