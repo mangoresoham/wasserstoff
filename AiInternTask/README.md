@@ -24,7 +24,7 @@ In this project, several summarization models were tested to determine the most 
 - **DistilBART-CNN-12-6**: Balances quality and speed but is still resource-consuming.
 - **Sumy**: Chosen for summarization in this project due to its efficiency.
 
-### Advantages of Using Sumy for Summarization:
+## Advantages of Using Sumy for Summarization:
 
 1. **Resource-Efficient**: Sumy is less resource-intensive compared to other models, making it ideal for deployment in environments like Hugging Face Spaces.
 2. **Fast Processing**: It provides quicker summarization results, which is essential for user experience, especially when handling large documents.
