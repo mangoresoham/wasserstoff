@@ -24,6 +24,22 @@ In this project, several summarization models were tested to determine the most 
 - **DistilBART-CNN-12-6**: Balances quality and speed but is still resource-consuming.
 - **Sumy**: Chosen for summarization in this project due to its efficiency.
 
+## ROUGE-1 F1 Score Comparison
+
+Below are the ROUGE-1 F1 scores for various summarization models tested on a specific text. These scores help highlight the performance of each model in capturing relevant content for summarization.
+
+| Model                  | ROUGE-1 F1 Score |
+|------------------------|------------------|
+| Groq LLaMA3-8b-8192     | 0.5224           |
+| T5-Small                | 0.4750           |
+| FineTuned T5            | 0.4637           |
+| DistilBART-CNN-12-6     | 0.4308           |
+| Sumy                    | 0.3686           |
+| Pegasus X-Sum           | 0.3641           |
+
+The **Groq LLaMA3-8b-8192** model has the highest F1 score, but due to resource constraints, the **Sumy** model was chosen for this project because it offers a good balance between performance and resource consumption.
+
+
 ## Advantages of Using Sumy for Summarization:
 
 1. **Resource-Efficient**: Sumy is less resource-intensive compared to other models, making it ideal for deployment in environments like Hugging Face Spaces.
