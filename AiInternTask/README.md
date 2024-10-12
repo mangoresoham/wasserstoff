@@ -1,3 +1,6 @@
+# # Domain-Specific PDF Summarization & Keyword Extraction Pipeline
+-
+   
 # PDF Summarizer with Keyword Extraction
 
 Welcome to the **PDF Summarizer with Keyword Extraction** project! This application allows you to upload PDF files and receive concise summaries along with relevant keywords, helping you to quickly grasp the main ideas from extensive documents.
