@@ -1,3 +1,4 @@
+# PDF Summarization & Keyword Extraction Pipeline
 This repository contains a domain-specific PDF summarization and keyword extraction pipeline designed to efficiently process multiple PDF documents of varying lengths. The pipeline ingests PDF files, generates concise domain-specific summaries, extracts relevant keywords, and stores the results in a MongoDB database. 
 
 The system was developed to handle documents of varying lengths, including short (1-10 pages), medium (10-30 pages), and long (30+ pages) PDFs, and ensures efficient parallel processing to manage large files without crashing. The summarization process dynamically adjusts based on document length, producing detailed summaries for longer documents and concise ones for shorter documents.
